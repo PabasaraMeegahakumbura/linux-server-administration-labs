@@ -1,0 +1,32 @@
+PUBLISH THE STARTER REPOSITORY
+==============================
+
+1. Extract this package.
+
+2. Open PowerShell in the extracted folder.
+
+3. Initialize and connect to GitHub:
+
+git init
+git branch -M main
+git remote add origin https://github.com/PabasaraMeegahakumbura/linux-server-administration-labs.git
+
+4. Review the files:
+
+git status
+
+5. Commit:
+
+git add .
+git commit -m "Initialize Linux administration labs and add user management lab"
+
+6. Push:
+
+git push -u origin main
+
+If Git says the remote already exists:
+
+git remote -v
+git remote set-url origin https://github.com/PabasaraMeegahakumbura/linux-server-administration-labs.git
+
+If Git asks for authentication, complete the GitHub browser/device login.

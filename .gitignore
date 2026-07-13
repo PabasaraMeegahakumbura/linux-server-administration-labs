@@ -1,0 +1,23 @@
+# Local evidence and screenshots that may contain sensitive information
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Keep evidence directories but ignore their contents by default
+**/evidence/*
+!**/evidence/.gitkeep
